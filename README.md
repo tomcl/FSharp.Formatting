@@ -8,6 +8,11 @@ of a Markdown parser and an F# code formatter that can be used to tokenize F# co
 including tool-tips (as in Visual Studio and MonoDevelop) with type information. The library also comes with 
 a sample that implements literate programming for F#.
 
+## How to Build
+
+1. Run `build.cmd` (windows) or `sh build.sh` (os-x and linux).
+2. On windows or os-x start Visual Studio on the root solution (`FSharp.Formatting.sln`) and rebuild it.
+
 ## Documentation 
 
 The documentation for this library is automatically generated (using the literate programming tools based on
